@@ -12,6 +12,9 @@
 - 4 ИК светодиода для управления техникой
 - диаметр 80 мм
 
+в планах:
+- добавление поддержки протокола Z-wave
+
 
 Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2
 
@@ -24,3 +27,6 @@ Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2
 - real time clock DS3231
 - 4 infrared LEDs for control of equipment
 - diameter 80 mm
+
+in the plans:
+- adding support for the Z-wave protocol
