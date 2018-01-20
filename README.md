@@ -1,6 +1,6 @@
 # Ass-shield
 
-## Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
+### Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 
 **Функции**
 - Массив из 4-х микрофонов по схеме Respeaker (только NanoPi)
@@ -17,7 +17,7 @@
 - добавление поддержки протокола Z-wave
 
 
-**Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero**
+### Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 
 **Function**
 - Array of 4 microphones according to the scheme of Respeaker (only NanoPi)
