@@ -1,5 +1,7 @@
 # Ass-shield
 
+![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_OPi_zero1.png?raw=true)
+
 ## Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 ### Функции
 - Массив из 4-х микрофонов по схеме Respeaker (только NanoPi)
