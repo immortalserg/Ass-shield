@@ -1,6 +1,7 @@
 
 GPIO10 - Ик передатчик
-SPI1 - NRF24L01+ (CE - GPIO2)
+SPI1 - NRF24L01+ (CE - GPIO2, CS - GPIO13)
+SPI1 - MAX7219 (CS - GPIO0)
 GPIO3 - 433 МГц передатчик
 GPIO18 - 433 МГц приемник
 GPIO19 - 315 МГц приемник
