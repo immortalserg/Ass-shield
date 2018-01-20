@@ -1,7 +1,7 @@
 # Ass-shield
 
-### Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
-#### Функции
+## Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
+### Функции
 - Массив из 4-х микрофонов по схеме Respeaker (только NanoPi)
 - RF315/433 МГц приемник/передатчик (м.cx. SYN480R и SYN115)
 - NRF24L01+
@@ -11,10 +11,10 @@
 - часы реального времени DS3231
 - 4 ИК светодиода для управления техникой
 - диаметр 80 мм
-#### в планах:
+### в планах:
 - добавление поддержки протокола Z-wave
-### Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
-#### Function
+## Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
+### Function
 - Array of 4 microphones according to the scheme of Respeaker (only NanoPi)
 - RF315 / 433 MHz Receiver / Transmitter (mcc SYN480R and SYN115)
 - NRF24L01+
@@ -24,7 +24,7 @@
 - real time clock DS3231
 - 4 infrared LEDs for control of equipment
 - diameter 80 mm
-#### in the plans:
+### in the plans:
 - adding support for the Z-wave protocol
 
 
