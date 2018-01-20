@@ -2,6 +2,7 @@
 
 Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 
+Функции
 - Массив из 4-х микрофонов по схеме Respeaker (только NanoPi)
 - RF315/433 МГц приемник/передатчик (м.cx. SYN480R и SYN115)
 - NRF24L01+
@@ -18,6 +19,7 @@
 
 Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 
+Function
 - Array of 4 microphones according to the scheme of Respeaker (only NanoPi)
 - RF315 / 433 MHz Receiver / Transmitter (mcc SYN480R and SYN115)
 - NRF24L01+
