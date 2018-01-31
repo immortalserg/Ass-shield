@@ -10,8 +10,7 @@
 - часы реального времени DS3231
 - 4 ИК светодиода для управления техникой
 - диаметр 80 мм
-### в планах:
-- добавление поддержки протокола Z-wave
+- поддержска протокола Z-wave (USB stick или UART)
 ## Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero
 ### Function
 - Array of 4 microphones according to the scheme of Respeaker (only NanoPi)
@@ -23,8 +22,8 @@
 - real time clock DS3231
 - 4 infrared LEDs for control of equipment
 - diameter 80 mm
-### in the plans:
-- adding support for the Z-wave protocol
+- Support for the Z-wave protocol (USB-drive or UART)
+
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_OPi_zero1.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_OPi_zero2.png?raw=true)
