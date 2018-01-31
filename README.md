@@ -25,6 +25,6 @@
 - diameter 80 mm
 ### in the plans:
 - adding support for the Z-wave protocol
-
+![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_OPi_zero1.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_OPi_zero2.png?raw=true)
