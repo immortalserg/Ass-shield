@@ -24,5 +24,5 @@
 - diameter 80 mm
 - Support for the Z-wave protocol (USB-drive or UART)
 
-![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_top.png?raw=true)
+![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
