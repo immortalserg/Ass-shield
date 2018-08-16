@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ass_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/ass_shield-rescue.lib)(options "")(descr ""))
+)
