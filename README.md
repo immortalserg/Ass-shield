@@ -26,4 +26,10 @@
 
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield.png?raw=true)
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield_top.png?raw=true)
+
+## Переходная плата для NanoPi Neo
+![img](https://github.com/immortalserg/Ass-shield/blob/master/NanoPi_top.png?raw=true)
+![img](https://github.com/immortalserg/Ass-shield/blob/master/NanoPi_bot.png?raw=true)
+
+## Корпус
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
