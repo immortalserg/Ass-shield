@@ -24,16 +24,15 @@
 - diameter 80 mm
 - Support for the Z-wave protocol (USB-drive or UART)
 ## Описание
-
-ИК передатчики (4 ИК диода через транзистор) подключены к GPIO26 (PA10)
-433 МГц приемник - GPIO15 (PA03)
-433 МГц передатчик - GPIO18 (PA18)
-315 МГц приемник - GPIO12 (PA07)
-315 МГц передатчик - GPIO16 (PA19)
-nrf24l01+ - SPI1 (MOSI-GPIO19, MISO-GPIO21, CLK-GPIO23, CS-GPIO24)
-zigbee (cc2530) - UART1
-WS2812 LED - GPIO7 (PA06)
-Часы реального времени DS3231 - i2c0
+- ИК передатчики (4 ИК диода через транзистор) подключены к GPIO26 (PA10)
+- 433 МГц приемник - GPIO15 (PA03)
+- 433 МГц передатчик - GPIO18 (PA18)
+- 315 МГц приемник - GPIO12 (PA07)
+- 315 МГц передатчик - GPIO16 (PA19)
+- nrf24l01+ - SPI1 (MOSI-GPIO19, MISO-GPIO21, CLK-GPIO23, CS-GPIO24)
+- zigbee (cc2530) - UART1
+- WS2812 LED - GPIO7 (PA06)
+- Часы реального времени DS3231 - i2c0
 
 
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/Ass_shield.png?raw=true)
