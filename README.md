@@ -34,8 +34,8 @@
 - WS2812 LED - GPIO7 (PA06)
 - Часы реального времени DS3231 - i2c0
 
-![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/Ass_shield.png?raw=true)
-![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/Ass_shield_top.png?raw=true)
+![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield.png?raw=true)
+![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield_top.png?raw=true)
 
 ## Переходная плата для NanoPi Neo
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/image/NanoPiNeo.png?raw=true)
