@@ -30,9 +30,25 @@
 - 315 МГц приемник - GPIO12 (PA07)
 - 315 МГц передатчик - GPIO16 (PA19)
 - nrf24l01+ - SPI1 (MOSI-GPIO19, MISO-GPIO21, CLK-GPIO23, CS-GPIO24)
-- zigbee (cc2530) - UART1
+- zigbee (cc2530) с усилителем cc2591 - UART1
 - WS2812 LED - GPIO7 (PA06)
 - Часы реального времени DS3231 - i2c0
+- i2c PCF8574 (P0- управление режимом записи 24LC256, P1-P4 - входы ADAU1772, P5 - MUTE  P6&P7 - Gain Select)
+
+Программирование cc2530 через DEBUG разъем J2 (1-DC,2-DD,3-Reset,4-3.3V,5-GND)
+
+Программирование ADAU1772 через i2c запись на микросхему памяти 24LC256
+
+J1 - питание 6-40V (1-VCC, 2-GND), при подаче питания на J1 должна стоять перемычка на J3, при питании другими способами перемычку на J3 убать.
+
+J4 - UART2 (1-3.3V, 2-RX, 3-TX, 4-GND)
+
+J5 - антенна NRF24L01+
+
+J7 - выход на динамики (1-L+, 2-L-, 3-R+, 4-R-)
+
+J8 - антенна zigbee (cc2530+cc2591)
+
 
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield.png?raw=true)
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield_top.png?raw=true)
