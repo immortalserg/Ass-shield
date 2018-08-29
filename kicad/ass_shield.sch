@@ -20,7 +20,7 @@ U 1 1 5B6E34A2
 P 2200 2350
 F 0 "U1" H 2175 4147 60  0000 C CNN
 F 1 "OPiZero" H 2175 4041 60  0000 C CNN
-F 2 "imm:OPiZero" H 2200 1500 60  0001 C CNN
+F 2 "imm:OPiZero4" H 2200 1500 60  0001 C CNN
 F 3 "/home/user/kicad/libraries/imm_lib/orange-pi-zero-piout.png" H 2200 1600 60  0001 C CNN
 	1    2200 2350
 	1    0    0    -1  
@@ -54,7 +54,7 @@ F 3 "" H 1250 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L imm_lib:syn115 D9
+L ass_shield-rescue:syn115-imm_lib D9
 U 1 1 5B6E36AC
 P 2200 7300
 F 0 "D9" H 2225 7525 50  0000 C CNN
@@ -65,7 +65,7 @@ F 3 "/home/user/kicad/libraries/imm_lib/syn115.pdf" H 2250 7000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:syn470r D13
+L ass_shield-rescue:syn470r-imm_lib D13
 U 1 1 5B6E371D
 P 2350 5050
 F 0 "D13" H 2350 5275 50  0000 C CNN
@@ -219,7 +219,7 @@ F 3 "~" H 650 7350 50  0001 C CNN
 $EndComp
 Connection ~ 850  7350
 $Comp
-L imm_lib:syn115 D8
+L ass_shield-rescue:syn115-imm_lib D8
 U 1 1 5B6E4624
 P 2200 5850
 F 0 "D8" H 2225 6075 50  0000 C CNN
@@ -555,7 +555,7 @@ Text GLabel 3100 3000 2    50   Input ~ 0
 Text GLabel 1950 5250 0    50   Input ~ 0
 5V
 $Comp
-L imm_lib:syn470r D14
+L ass_shield-rescue:syn470r-imm_lib D14
 U 1 1 5B70BDEF
 P 2350 6500
 F 0 "D14" H 2350 6725 50  0000 C CNN
@@ -775,7 +775,7 @@ Text GLabel 3100 2100 2    50   Input ~ 0
 Text GLabel 3100 2200 2    50   Input ~ 0
 1RF433
 $Comp
-L imm_lib:USB_F1 X1
+L ass_shield-rescue:USB_F1-imm_lib X1
 U 1 1 5B6FAC0C
 P 650 800
 F 0 "X1" H 706 833 50  0000 C CNN
@@ -786,7 +786,7 @@ F 3 "" H 650 850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:USB_F1 X2
+L ass_shield-rescue:USB_F1-imm_lib X2
 U 1 1 5B6FACB0
 P 650 1400
 F 0 "X2" H 706 1433 50  0000 C CNN
@@ -1177,7 +1177,7 @@ CSN
 Text GLabel 3100 1900 2    50   Input ~ 0
 CE
 $Comp
-L imm_lib:WS2812B D2
+L ass_shield-rescue:WS2812B-imm_lib D2
 U 1 1 5B706A5C
 P 1050 3650
 F 0 "D2" H 1025 3825 50  0000 C CNN
@@ -1188,7 +1188,7 @@ F 3 "" H 1050 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D5
+L ass_shield-rescue:WS2812B-imm_lib D5
 U 1 1 5B706C84
 P 1700 3650
 F 0 "D5" H 1675 3825 50  0000 C CNN
@@ -1199,7 +1199,7 @@ F 3 "" H 1700 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D10
+L ass_shield-rescue:WS2812B-imm_lib D10
 U 1 1 5B706D18
 P 2350 3650
 F 0 "D10" H 2325 3825 50  0000 C CNN
@@ -1210,7 +1210,7 @@ F 3 "" H 2350 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D15
+L ass_shield-rescue:WS2812B-imm_lib D15
 U 1 1 5B706DB2
 P 3000 3650
 F 0 "D15" H 2975 3825 50  0000 C CNN
@@ -1221,7 +1221,7 @@ F 3 "" H 3000 3850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D3
+L ass_shield-rescue:WS2812B-imm_lib D3
 U 1 1 5B706E52
 P 1050 4100
 F 0 "D3" H 1025 4275 50  0000 C CNN
@@ -1232,7 +1232,7 @@ F 3 "" H 1050 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D6
+L ass_shield-rescue:WS2812B-imm_lib D6
 U 1 1 5B706F16
 P 1700 4100
 F 0 "D6" H 1675 4275 50  0000 C CNN
@@ -1243,7 +1243,7 @@ F 3 "" H 1700 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D11
+L ass_shield-rescue:WS2812B-imm_lib D11
 U 1 1 5B70732F
 P 2350 4100
 F 0 "D11" H 2325 4275 50  0000 C CNN
@@ -1254,7 +1254,7 @@ F 3 "" H 2350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D16
+L ass_shield-rescue:WS2812B-imm_lib D16
 U 1 1 5B7073D5
 P 3000 4100
 F 0 "D16" H 2975 4275 50  0000 C CNN
@@ -2749,7 +2749,7 @@ Wire Wire Line
 Wire Wire Line
 	4150 7650 4150 7200
 $Comp
-L imm_lib:WS2812B D4
+L ass_shield-rescue:WS2812B-imm_lib D4
 U 1 1 5BCACDDF
 P 1050 4550
 F 0 "D4" H 1025 4725 50  0000 C CNN
@@ -2760,7 +2760,7 @@ F 3 "" H 1050 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D7
+L ass_shield-rescue:WS2812B-imm_lib D7
 U 1 1 5BCACF33
 P 1700 4550
 F 0 "D7" H 1675 4725 50  0000 C CNN
@@ -2771,7 +2771,7 @@ F 3 "" H 1700 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D12
+L ass_shield-rescue:WS2812B-imm_lib D12
 U 1 1 5BCAD06D
 P 2350 4550
 F 0 "D12" H 2325 4725 50  0000 C CNN
@@ -2782,7 +2782,7 @@ F 3 "" H 2350 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L imm_lib:WS2812B D17
+L ass_shield-rescue:WS2812B-imm_lib D17
 U 1 1 5BDA0DCC
 P 3000 4550
 F 0 "D17" H 2975 4725 50  0000 C CNN

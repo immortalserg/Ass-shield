@@ -708,11 +708,11 @@ X Vs 3 -200 -250 100 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# imm_lib_USB_F1
+# ass_shield-rescue_USB_F1-imm_lib
 #
-DEF ~imm_lib_USB_F1 X 0 40 Y Y 1 F N
+DEF ~ass_shield-rescue_USB_F1-imm_lib X 0 40 Y Y 1 F N
 F0 "X" 0 50 50 H V C CNN
-F1 "imm_lib_USB_F1" 0 150 50 H I C CNN
+F1 "ass_shield-rescue_USB_F1-imm_lib" 0 150 50 H I C CNN
 F2 "imm:usb_f2" 50 -500 50 H I C CNN
 F3 "" 0 50 50 H I C CNN
 DRAW
@@ -724,11 +724,11 @@ X GND 4 200 -400 100 L 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
-# imm_lib_WS2812B
+# ass_shield-rescue_WS2812B-imm_lib
 #
-DEF imm_lib_WS2812B D 0 40 Y Y 1 F N
+DEF ass_shield-rescue_WS2812B-imm_lib D 0 40 Y Y 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "imm_lib_WS2812B" 0 100 50 H V C CNN
+F1 "ass_shield-rescue_WS2812B-imm_lib" 0 100 50 H V C CNN
 F2 "imm:ws2812b" -50 -250 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -740,11 +740,11 @@ X DI 4 250 -50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# imm_lib_syn115
+# ass_shield-rescue_syn115-imm_lib
 #
-DEF imm_lib_syn115 D 0 40 Y Y 1 F N
+DEF ass_shield-rescue_syn115-imm_lib D 0 40 Y Y 1 F N
 F0 "D" 0 200 50 H V C CNN
-F1 "imm_lib_syn115" 0 100 50 H V C CNN
+F1 "ass_shield-rescue_syn115-imm_lib" 0 100 50 H V C CNN
 F2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" 0 -400 50 H I C CNN
 F3 "/home/user/kicad/libraries/imm_lib/syn115.pdf" 50 -300 50 H I C CNN
 DRAW
@@ -758,11 +758,11 @@ X ASK 6 400 0 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# imm_lib_syn470r
+# ass_shield-rescue_syn470r-imm_lib
 #
-DEF imm_lib_syn470r D 0 40 Y Y 1 F N
+DEF ass_shield-rescue_syn470r-imm_lib D 0 40 Y Y 1 F N
 F0 "D" 0 250 50 H V C CNN
-F1 "imm_lib_syn470r" 0 150 50 H V C CNN
+F1 "ass_shield-rescue_syn470r-imm_lib" 0 150 50 H V C CNN
 F2 "Package_SO:SSOP-8_3.95x5.21x3.27mm_P1.27mm" 0 -500 50 H I C CNN
 F3 "/home/user/kicad/libraries/imm_lib/syn470R.pdf" 0 -400 50 H I C CNN
 DRAW

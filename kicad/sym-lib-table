@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name ass_shield-rescue)(type Legacy)(uri ${KIPRJMOD}/ass_shield-rescue.lib)(options "")(descr ""))
+  (lib (name nanopi-rescue)(type Legacy)(uri ${KIPRJMOD}/nanopi-rescue.lib)(options "")(descr ""))
+  (lib (name nanopi_neo_air-rescue)(type Legacy)(uri ${KIPRJMOD}/nanopi_neo_air-rescue.lib)(options "")(descr ""))
+  (lib (name babana_pi_zero-rescue)(type Legacy)(uri ${KIPRJMOD}/babana_pi_zero-rescue.lib)(options "")(descr ""))
 )
