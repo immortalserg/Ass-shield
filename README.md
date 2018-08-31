@@ -24,14 +24,14 @@
 - diameter 80 mm
 - Support for the Z-wave protocol (USB-drive or UART)
 ## Описание
-- ИК передатчики (4 ИК диода через транзистор) подключены к GPIO26 (PA10)
-- 433 МГц приемник - GPIO15 (PA03)
-- 433 МГц передатчик - GPIO18 (PA18)
-- 315 МГц приемник - GPIO12 (PA07)
-- 315 МГц передатчик - GPIO16 (PA19)
-- nrf24l01+ - SPI1 (MOSI-GPIO19, MISO-GPIO21, CLK-GPIO23, CS-GPIO24)
+- ИК передатчики (4 ИК диода через транзистор) подключены к GPIO26 (PA10) /NanoPi - PA0/
+- 433 МГц приемник - GPIO15 (PA03) 
+- 433 МГц передатчик - GPIO18 (PA18) /NanoPi PG8/
+- 315 МГц приемник - GPIO12 (PA07) /NanoPi PG11/
+- 315 МГц передатчик - GPIO16 (PA19) /NanoPi PG9/
+- nrf24l01+ - SPI1 (MOSI-GPIO19, MISO-GPIO21, CLK-GPIO23, CS-GPIO24) /NanoPi SPI0 (MOSI-PC0, MISO-PC1, CLK-PC2, CS-PC3)/
 - zigbee (cc2530) с усилителем cc2591 - UART1
-- WS2812 LED - GPIO7 (PA06)
+- WS2812 LED - GPIO7 (PA06) 
 - Часы реального времени DS3231 - i2c0
 - i2c PCF8574 (P0- управление режимом записи 24LC256, P1-P4 - входы ADAU1772, P5 - MUTE  P6&P7 - Gain Select)
 
