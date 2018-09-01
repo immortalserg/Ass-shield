@@ -11,18 +11,6 @@
 - 4 ИК светодиода для управления техникой
 - диаметр 80 мм
 - поддержска протокола Z-wave (USB stick или UART)
-## Expansion card for OrangePi Zero, OrangePi Zero plus, OrangePi Zero plus2, NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, NanoPi Neo Core, NanoPi Neo Core2
-### Function
-- Array of 4 microphones DSP processor ADAU1772
-- RF315 / 433 MHz Receiver / Transmitter (mcc SYN480R and SYN115)
-- NRF24L01+
-- zigbee cc2530 + cc2591
-- 12 LEDs WS2812B
-- sound i2s ES9023 (only NanoPi) with amplifier 2x3W PAM8403 (PAM8404)
-- real time clock DS3231
-- 4 infrared LEDs for control of equipment
-- diameter 80 mm
-- Support for the Z-wave protocol (USB-drive or UART)
 ## Описание
 - ИК передатчики (4 ИК диода через транзистор) подключены к GPIO26 (PA10) /NanoPi - PA0/
 - 433 МГц приемник - GPIO15 (PA03) 
@@ -33,13 +21,15 @@
 - zigbee (cc2530) с усилителем cc2591 - UART1
 - WS2812 LED - GPIO7 (PA06) 
 - Часы реального времени DS3231 - i2c0
-- i2c PCF8574 (P0- управление режимом записи 24LC256, P1-P4 - входы ADAU1772, P5 - MUTE  P6&P7 - Gain Select)
-
-Программирование cc2530 через DEBUG разъем J2 (1-DC,2-DD,3-Reset,4-3.3V,5-GND)
+- i2c PCF8574 (P0- управление режимом записи 24LC256, P1-P4 - входы ADAU1772, P5 - MUTE  P6&P7 - Gain Select) 
 
 Программирование ADAU1772 через i2c запись на микросхему памяти 24LC256
 
-J1 - питание 6-40V (1-VCC, 2-GND), при подаче питания на J1 должна стоять перемычка на J3, при питании другими способами перемычку на J3 убать.
+J1 - питание 6-40V (1-VCC, 2-GND) на DC-DC преобразователь
+
+J2 - DEBUG разъем для программирования cc2530 через (1-DC,2-DD,3-Reset,4-3.3V,5-GND)
+
+J3 - питание 5В с DC-DC преобразователя (установить перемычку для питания через DC-DC преобразователь)
 
 J4 - UART2 (1-3.3V, 2-RX, 3-TX, 4-GND)
 
