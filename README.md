@@ -45,13 +45,19 @@ J4 - UART2 (1-3.3V, 2-RX, 3-TX, 4-GND)
 
 J5 - антенна NRF24L01+
 
+J6 - i2s (1-WS, 2-CLK, 3-DIN)
+
 J7 - выход на динамики (1-L+, 2-L-, 3-R+, 4-R-)
 
 J8 - антенна zigbee (cc2530+cc2591)
 
-Переходная плата NanoPi Neo
+### Переходная плата NanoPi Neo
 
 J1 - переключение выхода звука 1,2-ON;3,4-OFF -- LINE / 1,2-OFF;3,4-ON -- i2s ES9023
+
+### Переходная плата BananaPi zero
+
+
 
 
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield.png?raw=true)
@@ -59,6 +65,10 @@ J1 - переключение выхода звука 1,2-ON;3,4-OFF -- LINE / 1
 
 ## Переходная плата для NanoPi Neo
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/image/NanoPiNeo.png?raw=true)
+
+### Переходная плата BananaPi zero
+
+
 
 ## Корпус
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
