@@ -48,7 +48,7 @@ J1 - переключение выхода звука 1,2-ON;3,4-OFF -- LINE / 1
 ### Переходная плата BananaPi zero
 
 
-
+## Изображения
 
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield.png?raw=true)
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield_top.png?raw=true)
