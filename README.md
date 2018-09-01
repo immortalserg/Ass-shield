@@ -1,5 +1,5 @@
 # Ass-shield
-## Плата расширения для NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero (plus2)
+## Плата расширения для OrangePi Zero, OrangePi Zero plus, OrangePi Zero plus2, NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, NanoPi Neo Core, NanoPi Neo Core2
 ### Функции
 - Массив из 4-х микрофонов через процессор ADAU1772
 - RF315/433 МГц приемник/передатчик (м.cx. SYN480R и SYN115)
@@ -49,6 +49,10 @@ J7 - выход на динамики (1-L+, 2-L-, 3-R+, 4-R-)
 
 J8 - антенна zigbee (cc2530+cc2591)
 
+Переходная плата NanoPi Neo
+
+J1 - переключение выхода звука 1,2-ON;3,4-OFF -- LINE / 1,2-OFF;3,4-ON -- i2s ES9023
+
 
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield.png?raw=true)
 ![img](https://raw.githubusercontent.com/immortalserg/Ass-shield/master/image/Ass_shield_top.png?raw=true)
@@ -58,3 +62,4 @@ J8 - антенна zigbee (cc2530+cc2591)
 
 ## Корпус
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/209.png?raw=true)
+,
