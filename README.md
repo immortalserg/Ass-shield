@@ -11,7 +11,7 @@
 - 4 ИК светодиода для управления техникой
 - диаметр 80 мм
 - поддержска протокола Z-wave (USB stick или UART)
-## Expansion card for NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, OrangePi Zero (plus2)
+## Expansion card for OrangePi Zero, OrangePi Zero plus, OrangePi Zero plus2, NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, NanoPi Neo Core, NanoPi Neo Core2
 ### Function
 - Array of 4 microphones DSP processor ADAU1772
 - RF315 / 433 MHz Receiver / Transmitter (mcc SYN480R and SYN115)
