@@ -1,5 +1,5 @@
 # Ass-shield
-## Плата расширения для OrangePi Zero, OrangePi Zero plus, OrangePi Zero plus2, NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, NanoPi Neo Core, NanoPi Neo Core2
+## Плата расширения для OrangePi Zero, OrangePi Zero plus, OrangePi Zero plus2, NanoPi Neo, NanoPi Neo Air, NanoPi Neo 2, NanoPi Neo Core, NanoPi Neo Core2, RaspberryPi Zero, BananaPi zero
 ### Функции
 - Массив из 4-х микрофонов через процессор ADAU1772
 - RF315/433 МГц приемник/передатчик (м.cx. SYN480R и SYN115)
@@ -59,7 +59,7 @@ J3 - переключатель i2s BananaPi Zero / RaspberryPi Zero
 ## Переходная плата для NanoPi Neo
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/image/NanoPiNeo.png?raw=true)
 
-### Переходная плата BananaPi zero
+### Переходная плата BananaPi zero, RaspberryPi Zero
 ![img](https://github.com/immortalserg/Ass-shield/blob/master/image/BananaPiZero.png?raw=true)
 
 ## Корпус
