@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:babana_pi_zero-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -234,17 +233,6 @@ RX
 Text GLabel 4750 1800 2    50   Input ~ 0
 TX
 $Comp
-L babana_pi_zero-rescue:BananaPiZero-imm_lib D1
-U 1 1 5B8590AE
-P 3800 1600
-F 0 "D1" H 3600 1725 50  0000 C CNN
-F 1 "BananaPiZero" H 3600 1634 50  0000 C CNN
-F 2 "imm:BananaPiZeroSMD" H 3800 1700 50  0001 C CNN
-F 3 "" H 3800 1700 50  0001 C CNN
-	1    3800 1600
-	1    0    0    -1  
-$EndComp
-$Comp
 L babana_pi_zero-rescue:ES9023-imm_lib D2
 U 1 1 5B85932C
 P 6700 4900
@@ -319,33 +307,6 @@ Text GLabel 6300 5400 0    50   Input ~ 0
 Text GLabel 6300 5500 0    50   Input ~ 0
 3,3V
 $Comp
-L Connector:RJ45 J1
-U 1 1 5B85A90F
-P 5900 2350
-F 0 "J1" H 5570 2354 50  0000 R CNN
-F 1 "RJ45" H 5570 2445 50  0000 R CNN
-F 2 "shardy:RJ45-TE-338088" V 5900 2375 50  0001 C CNN
-F 3 "~" V 5900 2375 50  0001 C CNN
-	1    5900 2350
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	4750 2050 5500 2050
-Wire Wire Line
-	4750 2150 5500 2150
-Wire Wire Line
-	4750 2350 5200 2350
-Wire Wire Line
-	5200 2350 5200 2250
-Wire Wire Line
-	5200 2250 5500 2250
-Wire Wire Line
-	4750 2250 5100 2250
-Wire Wire Line
-	5100 2250 5100 2550
-Wire Wire Line
-	5100 2550 5500 2550
-$Comp
 L power:GND #PWR0101
 U 1 1 5B85BD09
 P 8000 5900
@@ -366,8 +327,7 @@ P 750 3600
 F 0 "J2" H 856 3878 50  0000 C CNN
 F 1 "i2s" H 856 3787 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 750 3600 50  0001 C CNN
-F 3 "~
-" H 750 3600 50  0001 C CNN
+F 3 "~" H 750 3600 50  0001 C CNN
 	1    750  3600
 	1    0    0    -1  
 $EndComp
@@ -378,10 +338,10 @@ i2s_WS
 Text GLabel 1350 3800 2    50   Input ~ 0
 i2s_CLK
 $Comp
-L connectors:HEADER-2x04 J?
+L connectors:HEADER-2x04 J3
 U 1 1 5B8A6080
 P 1450 3450
-F 0 "J?" H 1450 3807 60  0000 C CNB
+F 0 "J3" H 1450 3807 60  0000 C CNB
 F 1 "BananaPi/RaspberryPi" H 1450 3716 40  0000 C CNN
 F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm" H 1450 2250 60  0001 C CNN
 F 3 "" H 1450 2250 60  0001 C CNN
@@ -438,4 +398,15 @@ Wire Wire Line
 	1750 2300 1750 3300
 Wire Wire Line
 	1750 3300 1650 3300
+$Comp
+L imm_lib:BananaPi D1
+U 1 1 5B8AED9C
+P 3800 1600
+F 0 "D1" H 3600 1725 50  0000 C CNN
+F 1 "BananaPi" H 3600 1634 50  0000 C CNN
+F 2 "imm:BananaPi" H 3800 1700 50  0001 C CNN
+F 3 "" H 3800 1700 50  0001 C CNN
+	1    3800 1600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

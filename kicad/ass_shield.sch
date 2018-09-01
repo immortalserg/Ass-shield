@@ -1894,12 +1894,6 @@ F 3 "" H 5800 5650 50  0001 C CNN
 $EndComp
 Text GLabel 10300 5000 2    50   Input ~ 0
 P1
-Text GLabel 10300 4900 2    50   Input ~ 0
-P2
-Text GLabel 10300 4800 2    50   Input ~ 0
-P3
-Text GLabel 10300 4700 2    50   Input ~ 0
-P4
 Text GLabel 6800 4950 2    50   Input ~ 0
 P1
 Text GLabel 6800 5050 2    50   Input ~ 0
@@ -3619,4 +3613,22 @@ F 3 "" H 5200 4950 50  0001 C CNN
 	1    5200 4950
 	-1   0    0    1   
 $EndComp
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 5B8EB8EC
+P 10600 4800
+F 0 "J6" H 10627 4826 50  0000 L CNN
+F 1 "i2s" H 10627 4735 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 10600 4800 50  0001 C CNN
+F 3 "~
+" H 10600 4800 50  0001 C CNN
+	1    10600 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 4700 10400 4700
+Wire Wire Line
+	10300 4800 10400 4800
+Wire Wire Line
+	10300 4900 10400 4900
 $EndSCHEMATC

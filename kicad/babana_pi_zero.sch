@@ -85,25 +85,7 @@ Text GLabel 7950 3000 0    50   Input ~ 0
 MN
 Text GLabel 7950 3100 0    50   Input ~ 0
 IR
-Text GLabel 1000 2600 0    50   Input ~ 0
-DM2
-Text GLabel 1000 2500 0    50   Input ~ 0
-DP2
-Text GLabel 1000 2400 0    50   Input ~ 0
-DM3
-Text GLabel 1000 2300 0    50   Input ~ 0
-DP3
-Text GLabel 1000 3950 0    50   Input ~ 0
-LR
-Text GLabel 1000 4050 0    50   Input ~ 0
-LL
-Text GLabel 1000 2900 0    50   Input ~ 0
-MBIAS
-Text GLabel 1000 3750 0    50   Input ~ 0
-MP
-Text GLabel 1000 3850 0    50   Input ~ 0
-MN
-Text GLabel 1000 2800 0    50   Input ~ 0
+Text GLabel 2450 2700 0    50   Input ~ 0
 IR
 Text GLabel 2450 1700 0    50   Input ~ 0
 SDA
@@ -137,7 +119,7 @@ Text GLabel 2450 3100 0    50   Input ~ 0
 SPI1_CLK
 Text GLabel 2450 3200 0    50   Input ~ 0
 SPI1_CS
-Text GLabel 2450 4000 0    50   Input ~ 0
+Text GLabel 2450 3300 0    50   Input ~ 0
 PA10
 Text GLabel 7950 3450 0    50   Input ~ 0
 5V
@@ -322,11 +304,7 @@ Text GLabel 2450 4400 0    50   Input ~ 0
 i2s_SDI
 Text GLabel 6300 5000 0    50   Input ~ 0
 i2s_CLK
-Text GLabel 2450 3400 0    50   Input ~ 0
-i2s_CLK
 Text GLabel 6300 5100 0    50   Input ~ 0
-i2s_WS
-Text GLabel 2450 3500 0    50   Input ~ 0
 i2s_WS
 NoConn ~ 7100 5100
 NoConn ~ 7100 5000
@@ -379,4 +357,84 @@ F 3 "" H 8000 5900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8000 5900
+Text GLabel 2450 4300 0    50   Input ~ 0
+i2s-DIN
+$Comp
+L Connector:Conn_01x03_Male J2
+U 1 1 5B8A55BE
+P 750 3600
+F 0 "J2" H 856 3878 50  0000 C CNN
+F 1 "i2s" H 856 3787 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 750 3600 50  0001 C CNN
+F 3 "~" H 750 3600 50  0001 C CNN
+	1    750  3600
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 3700 2    50   Input ~ 0
+i2s-DIN
+Text GLabel 1350 3900 2    50   Input ~ 0
+i2s_WS
+Text GLabel 1350 3800 2    50   Input ~ 0
+i2s_CLK
+$Comp
+L connectors:HEADER-2x04 J3
+U 1 1 5B8A6080
+P 1450 3450
+F 0 "J3" H 1450 3807 60  0000 C CNB
+F 1 "BananaPi/RaspberryPi" H 1450 3716 40  0000 C CNN
+F 2 "Button_Switch_SMD:SW_DIP_SPSTx04_Slide_KingTek_DSHP04TS_W7.62mm_P1.27mm" H 1450 2250 60  0001 C CNN
+F 3 "" H 1450 2250 60  0001 C CNN
+F 4 "-" H 1350 3800 40  0001 L BNN "Part"
+F 5 "Connector" H 1350 3900 40  0001 L BNN "Family"
+	1    1450 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	950  3500 1050 3500
+Wire Wire Line
+	950  3600 1150 3600
+Wire Wire Line
+	1250 3400 1150 3400
+Wire Wire Line
+	1150 3400 1150 3600
+Connection ~ 1150 3600
+Wire Wire Line
+	1150 3600 1250 3600
+Wire Wire Line
+	1250 3300 1050 3300
+Wire Wire Line
+	1050 3300 1050 3500
+Connection ~ 1050 3500
+Wire Wire Line
+	1050 3500 1250 3500
+Wire Wire Line
+	950  3700 1350 3700
+Wire Wire Line
+	1150 3600 1150 3800
+Wire Wire Line
+	1150 3800 1350 3800
+Wire Wire Line
+	1050 3500 1050 3900
+Wire Wire Line
+	1050 3900 1350 3900
+Wire Wire Line
+	2450 3500 1650 3500
+Wire Wire Line
+	2450 3400 1800 3400
+Wire Wire Line
+	1800 3400 1800 3600
+Wire Wire Line
+	1800 3600 1650 3600
+Wire Wire Line
+	2450 4000 1750 4000
+Wire Wire Line
+	1750 4000 1750 3400
+Wire Wire Line
+	1750 3400 1650 3400
+Wire Wire Line
+	2450 2300 1750 2300
+Wire Wire Line
+	1750 2300 1750 3300
+Wire Wire Line
+	1750 3300 1650 3300
 $EndSCHEMATC

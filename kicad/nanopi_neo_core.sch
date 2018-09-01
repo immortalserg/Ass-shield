@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:nanopi_neo_core-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -317,13 +318,13 @@ $EndComp
 Wire Wire Line
 	4300 2950 5650 2950
 Wire Wire Line
-	4300 2750 5400 2750
+	4300 2750 4800 2750
 Wire Wire Line
 	5400 2750 5400 2850
 Wire Wire Line
 	5400 2850 5650 2850
 Wire Wire Line
-	4300 2850 5100 2850
+	4300 2850 4900 2850
 Wire Wire Line
 	5100 2850 5100 2700
 Wire Wire Line
@@ -394,7 +395,7 @@ F 3 "" H 7300 3650 50  0001 C CNN
 $EndComp
 Connection ~ 7300 3650
 $Comp
-L connectors:HEADER-2x04 J1
+L nanopi_neo_core-rescue:HEADER-2x04-connectors J1
 U 1 1 5B85C71E
 P 5050 3800
 F 0 "J1" H 5050 4157 60  0000 C CNB
@@ -510,10 +511,10 @@ Wire Wire Line
 Wire Wire Line
 	4900 5450 5050 5450
 $Comp
-L imm_lib:USB_F1 X?
+L nanopi_neo_core-rescue:USB_F1-imm_lib X1
 U 1 1 5B8793F1
 P 5100 4700
-F 0 "X?" H 4973 4455 50  0000 R CNN
+F 0 "X1" H 4973 4455 50  0000 R CNN
 F 1 "USB_F1" H 5100 4850 50  0001 C CNN
 F 2 "imm:usb_f2" H 5150 4200 50  0001 C CNN
 F 3 "" H 5100 4750 50  0001 C CNN
@@ -521,10 +522,10 @@ F 3 "" H 5100 4750 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR06
 U 1 1 5B87D6E1
 P 4900 4300
-F 0 "#PWR?" H 4900 4050 50  0001 C CNN
+F 0 "#PWR06" H 4900 4050 50  0001 C CNN
 F 1 "GND" H 4905 4127 50  0000 C CNN
 F 2 "" H 4900 4300 50  0001 C CNN
 F 3 "" H 4900 4300 50  0001 C CNN
@@ -545,4 +546,34 @@ Wire Wire Line
 	4700 4400 4900 4400
 Wire Wire Line
 	4300 4650 4700 4650
+Wire Wire Line
+	4300 3050 5000 3050
+Wire Wire Line
+	5000 3050 5000 2250
+Wire Wire Line
+	4900 2850 4900 2050
+Wire Wire Line
+	4900 2050 5000 2050
+Connection ~ 4900 2850
+Wire Wire Line
+	4900 2850 5100 2850
+Wire Wire Line
+	4800 2750 4800 2150
+Wire Wire Line
+	4800 2150 5000 2150
+Connection ~ 4800 2750
+Wire Wire Line
+	4800 2750 5400 2750
+$Comp
+L Connector:Conn_01x03_Male J3
+U 1 1 5B8A9C65
+P 5200 2150
+F 0 "J3" H 5173 2173 50  0000 R CNN
+F 1 "Conn_01x03_Male" H 5173 2082 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical_SMD_Pin1Left" H 5200 2150 50  0001 C CNN
+F 3 "~
+" H 5200 2150 50  0001 C CNN
+	1    5200 2150
+	-1   0    0    -1  
+$EndComp
 $EndSCHEMATC

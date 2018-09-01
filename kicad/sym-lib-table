@@ -3,4 +3,5 @@
   (lib (name nanopi-rescue)(type Legacy)(uri ${KIPRJMOD}/nanopi-rescue.lib)(options "")(descr ""))
   (lib (name nanopi_neo_air-rescue)(type Legacy)(uri ${KIPRJMOD}/nanopi_neo_air-rescue.lib)(options "")(descr ""))
   (lib (name babana_pi_zero-rescue)(type Legacy)(uri ${KIPRJMOD}/babana_pi_zero-rescue.lib)(options "")(descr ""))
+  (lib (name nanopi_neo_core-rescue)(type Legacy)(uri ${KIPRJMOD}/nanopi_neo_core-rescue.lib)(options "")(descr ""))
 )
