@@ -46,7 +46,7 @@ J8 - антенна zigbee (cc2530+cc2591)
 J1 - переключение выхода звука 1,2-ON;3,4-OFF -- LINE / 1,2-OFF;3,4-ON -- i2s ES9023
 
 ### Переходная плата BananaPi zero, RaspberryPi Zero
--P4
+
 J3 - переключатель i2s BananaPi Zero / RaspberryPi Zero
 
 Для RaspberryPi Zero не используется LAN и UART2
