@@ -3699,7 +3699,7 @@ F 3 "" H 8250 4750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7100 2500 8100 2500
+	7100 2500 7800 2500
 Wire Wire Line
 	8100 3250 7100 3250
 Wire Wire Line
@@ -3730,4 +3730,18 @@ Wire Wire Line
 	8500 4750 8500 3500
 Wire Wire Line
 	8500 3500 8900 3500
+$Comp
+L imm_lib:R R?
+U 1 1 5C58B42E
+P 7800 2350
+F 0 "R?" H 7870 2396 50  0000 L CNN
+F 1 "R" H 7870 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7700 2400 50  0001 C CNN
+F 3 "" H 7800 2450 50  0001 C CNN
+	1    7800 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 2500
+Wire Wire Line
+	7800 2500 8100 2500
 $EndSCHEMATC

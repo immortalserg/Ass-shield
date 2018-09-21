@@ -1429,7 +1429,7 @@ F 3 "/home/user/kicad/libraries/imm_lib/ADAU1772.pdf" H 9350 150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 8900 2800
-Text GLabel 8700 3700 0    50   Input ~ 0
+Text GLabel 8750 3700 0    50   Input ~ 0
 3,3V
 Wire Wire Line
 	10050 4550 9950 4550
@@ -3653,5 +3653,81 @@ Connection ~ 8800 3600
 Wire Wire Line
 	8800 3600 8800 3800
 Wire Wire Line
-	8700 3700 8900 3700
+	8750 3700 8900 3700
+$Comp
+L ass_shield-rescue:C-imm_lib C?
+U 1 1 5C3FF0A7
+P 8250 2500
+F 0 "C?" V 7998 2500 50  0000 C CNN
+F 1 "47 uF" V 8089 2500 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 8100 2450 50  0001 C CNN
+F 3 "" H 8250 2500 50  0001 C CNN
+	1    8250 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L ass_shield-rescue:C-imm_lib C?
+U 1 1 5C3FF75A
+P 8250 3250
+F 0 "C?" V 7998 3250 50  0000 C CNN
+F 1 "47 uF" V 8089 3250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 8100 3200 50  0001 C CNN
+F 3 "" H 8250 3250 50  0001 C CNN
+	1    8250 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L ass_shield-rescue:C-imm_lib C?
+U 1 1 5C3FF8BA
+P 8250 4000
+F 0 "C?" V 7998 4000 50  0000 C CNN
+F 1 "47 uF" V 8089 4000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 8100 3950 50  0001 C CNN
+F 3 "" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L ass_shield-rescue:C-imm_lib C?
+U 1 1 5C3FFA0A
+P 8250 4750
+F 0 "C?" V 7998 4750 50  0000 C CNN
+F 1 "47 uF" V 8089 4750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" V 8100 4700 50  0001 C CNN
+F 3 "" H 8250 4750 50  0001 C CNN
+	1    8250 4750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2500 8100 2500
+Wire Wire Line
+	8100 3250 7100 3250
+Wire Wire Line
+	8100 4000 7100 4000
+Wire Wire Line
+	8100 4750 7100 4750
+Wire Wire Line
+	8400 2500 8750 2500
+Wire Wire Line
+	8750 2500 8750 2900
+Wire Wire Line
+	8750 2900 8900 2900
+Wire Wire Line
+	8400 3250 8750 3250
+Wire Wire Line
+	8750 3250 8750 3100
+Wire Wire Line
+	8750 3100 8900 3100
+Wire Wire Line
+	8400 4000 8450 4000
+Wire Wire Line
+	8450 4000 8450 3300
+Wire Wire Line
+	8450 3300 8900 3300
+Wire Wire Line
+	8400 4750 8500 4750
+Wire Wire Line
+	8500 4750 8500 3500
+Wire Wire Line
+	8500 3500 8900 3500
 $EndSCHEMATC
