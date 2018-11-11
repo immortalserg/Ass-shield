@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
 LIBS:ass_shield-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -866,7 +866,7 @@ U 1 1 5B730573
 P 5800 7350
 F 0 "Y6" V 5754 7481 50  0000 L CNN
 F 1 "16 MHz" V 5845 7481 50  0000 L CNN
-F 2 "w_crystal:crystal_tc-38_horiz" H 5800 7350 50  0001 C CNN
+F 2 "imm:Crystal_SMD_3215-2Pin_3.2x1.5mm" H 5800 7350 50  0001 C CNN
 F 3 "~" H 5800 7350 50  0001 C CNN
 	1    5800 7350
 	0    1    1    0   
@@ -3232,9 +3232,9 @@ F 3 "" H 7250 3350 50  0001 C CNN
 	1    7250 3350
 	0    -1   -1   0   
 $EndComp
-Text GLabel 3100 1600 2    50   Input ~ 0
+Text GLabel 3100 800  2    50   Input ~ 0
 UART2_RX
-Text GLabel 3100 1700 2    50   Input ~ 0
+Text GLabel 3100 900  2    50   Input ~ 0
 UART2_TX
 Text GLabel 7250 3150 2    50   Input ~ 0
 UART2_RX
@@ -3628,10 +3628,10 @@ Wire Wire Line
 	10300 4900 10400 4900
 Connection ~ 600  5150
 $Comp
-L power:GND #PWR?
+L power:GND #PWR070
 U 1 1 5BE33315
 P 800 4950
-F 0 "#PWR?" H 800 4700 50  0001 C CNN
+F 0 "#PWR070" H 800 4700 50  0001 C CNN
 F 1 "GND" H 805 4777 50  0001 C CNN
 F 2 "" H 800 4950 50  0001 C CNN
 F 3 "" H 800 4950 50  0001 C CNN
@@ -3640,10 +3640,10 @@ F 3 "" H 800 4950 50  0001 C CNN
 $EndComp
 Connection ~ 850  5900
 $Comp
-L power:GND #PWR?
+L power:GND #PWR063
 U 1 1 5BE9F8EF
 P 650 5700
-F 0 "#PWR?" H 650 5450 50  0001 C CNN
+F 0 "#PWR063" H 650 5450 50  0001 C CNN
 F 1 "GND" H 655 5527 50  0001 C CNN
 F 2 "" H 650 5700 50  0001 C CNN
 F 3 "" H 650 5700 50  0001 C CNN
@@ -3652,10 +3652,10 @@ F 3 "" H 650 5700 50  0001 C CNN
 $EndComp
 Connection ~ 600  6600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR071
 U 1 1 5BF0C4AF
 P 800 6400
-F 0 "#PWR?" H 800 6150 50  0001 C CNN
+F 0 "#PWR071" H 800 6150 50  0001 C CNN
 F 1 "GND" H 805 6227 50  0001 C CNN
 F 2 "" H 800 6400 50  0001 C CNN
 F 3 "" H 800 6400 50  0001 C CNN
@@ -3664,14 +3664,24 @@ F 3 "" H 800 6400 50  0001 C CNN
 $EndComp
 Connection ~ 850  7350
 $Comp
-L power:GND #PWR?
+L power:GND #PWR069
 U 1 1 5BF79106
 P 650 7150
-F 0 "#PWR?" H 650 6900 50  0001 C CNN
+F 0 "#PWR069" H 650 6900 50  0001 C CNN
 F 1 "GND" H 655 6977 50  0001 C CNN
 F 2 "" H 650 7150 50  0001 C CNN
 F 3 "" H 650 7150 50  0001 C CNN
 	1    650  7150
 	0    -1   -1   0   
 $EndComp
+$Sheet
+S 7350 6050 500  300 
+U 5BE401CA
+F0 "list2" 50
+F1 "list2.sch" 50
+$EndSheet
+Text GLabel 3100 1600 2    50   Input ~ 0
+NSEL
+Text GLabel 3100 1700 2    50   Input ~ 0
+NIRQ
 $EndSCHEMATC
