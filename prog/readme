@@ -1,0 +1,27 @@
+AssShield.dspproj - проект в SigmaStudio
+
+E2Prom.Hex - hex файл проекта из SigmaStudio
+
+E2Prom.bin - bin файл для прошивки микросхемы 24cXXX
+
+Конвертировать из HEX в BIN командой:
+
+xxd -r -p E2Prom.Hex E2Prom.bin
+
+# Прошивка микросхемы памяти. (https://www.richud.com/wiki/Rasberry_Pi_I2C_EEPROM_Program)
+
+1. Разрешить запись в память микросхемы 24cXXX, для этого ногу WP подтянуть на GND (подтяжка на VCC запрещает запись)
+
+2. Скомпилировать программу прошивки, для этого выполнить make в папке eeprog
+
+3. Прошить bin файл:
+
+./eeprog -f -16 -i E2Prom.bin -w 0x100 -t 5 /dev/i2c-0 0x50
+
+4. проверить записанное в память:
+
+i2cdump -y 0 0x50 i
+
+или
+
+./eeprog -xf /dev/i2c-0 0x53 -16 -r 0x00:0x200
